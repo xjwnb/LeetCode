@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-06 15:27:16
- * @LastEditTime: 2020-09-06 15:37:27
+ * @LastEditTime: 2020-09-06 15:43:18
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \小卡车的博客f:\Github_my_project\Leetcode\#771宝石与石头.js
@@ -38,6 +38,7 @@ var numJewelsInStones = function(J, S) {
 
 // 结果
 /**
+ * 254 / 254 个通过测试用例
  * 执行用时: 96 ms
  * 内存消耗: 38 MB
  * 超过24%
