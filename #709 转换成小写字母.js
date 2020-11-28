@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-11-28 14:33:18
- * @LastEditTime: 2020-11-28 14:36:41
+ * @LastEditTime: 2020-11-28 14:40:53
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \Leetcode\#709 转换成小写字母.js
@@ -24,20 +24,15 @@
   输出: "lovely"
 */
 
-var toLowerCase = function (str) {
-  return str
-    .split("")
-    .map((item) => {
-      return item.toLowerCase();
-    })
-    .join("");
+var toLowerCase = function(str) {
+  return str.toLowerCase();
 };
 
 
 // 结果
 /* 
 8 / 8 个通过测试用例
-执行用时: 80 ms
-内存消耗: 37.8 MB
-超过 69%
+执行用时: 76 ms
+内存消耗: 37.7 MB
+超过 89%
  */
